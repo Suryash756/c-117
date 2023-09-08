@@ -1,0 +1,140 @@
+body 
+{
+    background-color: #fbd139;
+    background: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHCg0HBwcHBwcHDw0HBwcHBw8ICQcWFREWFhURHx8YHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ0NFSsZHxkrKysrKysrKysrKysrLS0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOAA4AMBIgACEQEDEQH/xAAVAAEBAAAAAAAAAAAAAAAAAAACBv/EABYQAQEBAAAAAAAAAAAAAAAAAAABAv/EABcBAQEBAQAAAAAAAAAAAAAAAAIFAQb/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8Aq6FOhp0cVqNGlRpQRoU6FKCNGlRpQRoU6FMRoU6FKDRo0qNKDQo0qNIRo0qNKCFGlRpwaNCnQpQaNGlRpQaNCnQpQaFEqJQV/Qp0Khxao0aVGlBGhToUoI0aVGlBGhToU4NGhToUoNGjSo0oNCjSo0hGjSo0oIUaVGnBo0KdClBo0aVGlBo0KdClBoUToFBX9CnQqHFqjRpUaUEaNKjSghRpUaUEaFOhTEaFOhSg0aNKjSghRp0KQjRpUaUEKNKjTg0aFOhSg0aNKjSg0aFOhSgjRKiUFfUaVGocWqFGlRpQRo0qNKCFGlRpQRoU6FMRoU6FIaNGlRpQaFGnQpCNGlRpQQo0qNODRoU6FKDRo0qNKDRoU6FKCNEqJQV9RpUahxaoUaVGlBGjSo0oIDSGlBo0KdCmI0KdCkNGjSo0oNGhTo0hCjSo0oIUaVGnBo0KdClBo0aVGlBo0KdClBGiVEoK+o0qNQ4tUKNOjSg0KNKjSggNKjSg0aFOhSEaFOhTGjRpUaUGjRpUaQhRpUaUEKNKjTg0aFOhSg0aNKjSg0aFOhSgjRKiUFfUaVGocWqNCnQpQaNGlRpQQo0qNKDRoU6FKCNGlRpwQo0qNKDRo0qNIQo0qNKCFGlRpwaNCnQpQaNGlRpQaNCnQpQaNEqJQV9RpUahxao0KdClBo0aVGlBCjSo0oNGhToUoI0aVGnBCjSo0oNGjSo0hCjSo0oNCjSo04I0KdClBo0aVGlBo0KdGlBoUSolGL6jSo1DizRo0qNKCFGlRpQQo0qNKDRoU6FKCNGlRpwQo0qNKDRo0qNIQo0qNKDQo06FODRo0qNKDQo0qNKDRo0qNKDQolRKMX1GlRqHFmjRpUaUEKNKjSghRphSg0aFOhSg0aNKjTg0aFOhSg0aNKjSEKNKjSg0aFOhSg0aNKjTg0aFOhSgjRpUaUGhRKiUYvqNOhUOLNGjSo0oNCjSo0oIhTClBo0KdClBo0aVGlBo0KdCnBo0aVGkNCjSo0oNGhToUoNGjSo04I0KdClBGjSo0oNCiVEoxf0KdCocWaNGlRpQQo0qNKCIUwpQaNCnQpQRo0qNKDRoU6FODRo0qNIQo0qNKDRoU6FKDRo0qNOCFGnQpQRo0qNKDQolRKMX9CnQqHFmjRpUaUEKNKjSgiFMKUGjRpUaUGhRpUaUGjQp0KcGjRpUaQ0KNKjSg0aFOhSg0aNKjTEaFOhSg0aNKjSjKFEqJQV/Qp0KhxZo0aVGlBCjSo0oI0KdClBo0aVClBo0aVGlBo0KdCnBo0aVGkIUaVGlBo0KdClBo0aVGnBGhSo0oNGjSo0oNCiVGlGP/9k=");
+    background-size: cover;
+    border:double;
+    border-color: black;
+    border-width:20px;
+    text-align:center;
+    
+}
+h1{
+  color: rgb(38,0,5);
+  
+  background-color:cornsilk;  
+  border: 10px double black ;
+  padding-top: 10px;
+  text-decoration:underline;
+  text-align: center;
+  font-weight:bold;
+  padding-bottom: 10px;
+  animation-name:example1;
+    animation-duration: 10s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right:10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+@keyframes example1
+{
+    from{box-shadow: 1px 1px 38px orange;}
+    to {box-shadow: 1px 1px 38px red;}
+
+}
+#img{
+    height:40px;
+    width:50px;
+    float:left;
+    margin-left:10px;
+    margin-bottom:500000px;
+}
+ #show_skecth
+{
+    background-color:orange;
+    color:black;
+    border:5px double black;
+    font-weight: bold;
+    border-radius:25px;
+}
+#button_clear
+{
+    background-color:orangered;
+    color:black;
+    border:5px double black;
+    font-weight: bold;
+    margin:10px;
+    border-radius:25px;
+}
+#show_skecth
+{
+    float:right;
+}
+
+canvas 
+{
+    margin-left: 40px;
+    border:5px solid white;
+    border-radius :20px;
+    animation-name:example;
+    animation-duration: 10s;
+    margin-top: 195px;
+    animation-iteration-count: infinite;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px red;}
+
+}
+
+p{
+    padding-top: 10px;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    border:double;
+    border-color: black;
+    border-width: 10px;
+    border-radius:25px;
+    margin-top:10px;
+    background-color: white;
+    margin-left:10px;
+    margin-right:10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+button{
+ transition :transform.2s;
+
+}
+
+button:hover{
+    transform:scale(0.9);
+}
+#score{
+    padding-top: 10px;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    border:double;
+    border-color: black;
+    border-width: 10px;
+    border-radius:25px;
+    margin-top:30px;
+    background-color: white;
+    margin-left:10px;
+    margin-right:10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    float:left;
+}
+#timer{
+    padding-top: 10px;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    border:double;
+    border-color: black;
+    border-width: 10px;
+    border-radius:25px;
+    margin-top:30px;
+    background-color: white;
+    margin-left:10px;
+    margin-right:10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    float:right;
+}
